@@ -1,6 +1,6 @@
 # Learning python strings
 
 uid="ray"
-pwd="mypass"
-response = requests.get("https://api.open-notify.org/astros.json?user"+uid+"&pwd="+pwd)
+password="mypass"
+response = requests.get("https://api.open-notify.org/astros.json?user"+uid+"&pwd="+password)
 print(response.status_code)
